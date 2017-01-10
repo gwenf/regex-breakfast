@@ -1,0 +1,12 @@
+{
+  "name": "regex-breakfast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer"
+  },
+  "keywords": [],
+  "author": "Gwendolyn Faraday <gwenfaraday@gmail.com> (http://gwenfaraday.com/)",
+  "license": "MIT"
+}

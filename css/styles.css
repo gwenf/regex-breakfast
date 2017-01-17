@@ -26,11 +26,17 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+li {
+	list-style: none;
+	padding: 5px 15px;
+}
 
 .small-font {
   font-size: 12px; /* 75% of the baseline */
 }
-
+.normal-font {
+  font-size: 16px;
+}
 .large-font {
   font-size: 20px; /* 125% of the baseline */
 }
@@ -87,6 +93,10 @@ header h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.highlighted-string {
+	background: #f1d965;
 }
 
 

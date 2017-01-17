@@ -80,5 +80,11 @@
 				"Info Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor velit, faucibus sed interdum ac, tempor eu lacus. Integer massa orci, blandit et dolor sit amet, mollis sodales nunc. Maecenas quis augue rhoncus, rutrum leo egestas, tincidunt enim. Aliquam sit amet nisl massa. In ultricies est quis urna feugiat, id molestie sem tempor."
 			}
 		]
-	}
+	},
+	"order": [
+		"Beginner",
+		"Escaping",
+		"Modifiers",
+		"Advanced"
+	]
 }

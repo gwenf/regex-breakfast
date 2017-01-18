@@ -8,9 +8,8 @@
     <link rel='stylesheet' href='css/styles.css'>
 </head>
 <body>
-<!-- layout the page first and then add some events -->
     <header>
-        <img src='images/coffee-cup.png'>
+        <img id='logo-image' data-number=0 src='images/coffee-cup.png'>
         <h1>Regex Breakfast</h1>
     </header>
     <div class='main-area-wrapper'>
@@ -19,56 +18,28 @@
 
             <div class='regex-input-area'>
                 <span class='forward-slash'>/</span>
-                <input id='regex-main-input' type='text' autofocus>
+                <input id='regex-main-input' type='text' autocomplete='off' spellcheck='false' autofocus>
                 <span class='forward-slash'>/</span>
-                <input id='regex-modifiers-input' type='text' disabled>
+                <input id='regex-modifiers-input' type='text' autocomplete='off' spellcheck='false' disabled>
             </div>
 
             <div class='challenge-info-text'>
-                <p></p>
+                <p>Some dummy text here.</p>
             </div>
         </section>
-        <aside>
-            <p class='large-font'>Beginner Section</p>
-            <ul>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-            </ul>
-            <p class='large-font'>Escaping Section</p>
-            <ul>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-            </ul>
-            <p class='large-font'>Modifiers Section</p>
-            <ul>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-            </ul>
-            <p class='large-font'>Advanced Section</p>
-            <ul>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-                <li>Side Menu Item</li>
-            </ul>
+        <aside id='main-side-nav'>
         </aside>
+    </div>
+    <div class='hidden-boxes'>
+        <div class='hidden footer-help'>This is the hiddent help section!</div>
+        <div class='hidden footer-resources'>This is the hiddent resources section!</div>
     </div>
     <footer>
         <div class='footer-container'>
             <section class='footer-section'>
-                <div class='expanding-button large-font'><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> Need Help?</div>
+                <div data-reveal='footer-help' class='expanding-button large-font'><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> Need Help?</div>
                 <span class='divider'></span>
-                <div class='expanding-button large-font'><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> Resources</div>
+                <div data-reveal='footer-resources' class='expanding-button large-font'><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> Resources</div>
             </section>
             <section class='footer-section'>
                 <div class='created-by'>Created by gwenf</div>
@@ -76,11 +47,14 @@
                 <div class='github-repo'><a href='https://github.com/gwenf/regex-breakfast' target='_blank'><i class="fa fa-github" aria-hidden="true"></i> Github Repo</a></div>
             </section>
         </div>
-        <!-- need help? -->
-        <!-- About RegexBreakfast -->
-        <!-- (arrow pointing up) -->
-        <!-- then put copyright at the bottom -->
     </footer>
-    <script src='js/app.js'></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/eventemitter2.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/sideNav.js"></script>
+    <script src="js/regexMatcher.js"></script>
+    <script src="js/renderChallenge.js"></script>
 </body>
 </html>

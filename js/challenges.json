@@ -5,25 +5,25 @@
 				"id": 1,
 				"Section": "Beginner",
 				"name": "Single Word",
-				"Info Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor velit, faucibus sed interdum ac, tempor eu lacus. Integer massa orci, blandit et dolor sit amet, mollis sodales nunc. Maecenas quis augue rhoncus, rutrum leo egestas, tincidunt enim. Aliquam sit amet nisl massa. In ultricies est quis urna feugiat, id molestie sem tempor."
+				"Info Text": "Hello"
 			},
 			{
 				"id": 2,
 				"Section": "Beginner",
 				"name": "Spaces",
-				"Info Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor velit, faucibus sed interdum ac, tempor eu lacus. Integer massa orci, blandit et dolor sit amet, mollis sodales nunc. Maecenas quis augue rhoncus, rutrum leo egestas, tincidunt enim. Aliquam sit amet nisl massa. In ultricies est quis urna feugiat, id molestie sem tempor."
+				"Info Text": "I am hungry."
 			},
 			{
 				"id": 3,
 				"Section": "Beginner",
 				"name": "Multiple Words",
-				"Info Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor velit, faucibus sed interdum ac, tempor eu lacus. Integer massa orci, blandit et dolor sit amet, mollis sodales nunc. Maecenas quis augue rhoncus, rutrum leo egestas, tincidunt enim. Aliquam sit amet nisl massa. In ultricies est quis urna feugiat, id molestie sem tempor."
+				"Info Text": "What's for breakfast today."
 			},
 			{
 				"id": 4,
 				"Section": "Beginner",
 				"name": "Email Validation",
-				"Info Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tortor velit, faucibus sed interdum ac, tempor eu lacus. Integer massa orci, blandit et dolor sit amet, mollis sodales nunc. Maecenas quis augue rhoncus, rutrum leo egestas, tincidunt enim. Aliquam sit amet nisl massa. In ultricies est quis urna feugiat, id molestie sem tempor."
+				"Info Text": "yummy@toast.com"
 			}
 		],
 		"Escaping": [

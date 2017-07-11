@@ -5,7 +5,6 @@ var regexMatcher = (function(){
     }
 
     function checkRegexMatched(stringToMatch, userInput){
-        console.log('called')
 
         var userInputMatch = new RegExp('^' + userInput + '$');
         // var name = $('aside .highlighted-string').text();
@@ -13,10 +12,10 @@ var regexMatcher = (function(){
 
         if (stringToMatch.match(userInputMatch)){
             var newID = parseInt(id) + 1;
-            console.log(newID)
+
             getChallenges()
                 .then(function(data){
-                    EVT.emit("update-challenge", newID);
+                    EVT.emit("update-challenge", newID, data);
                 })
         }
     }

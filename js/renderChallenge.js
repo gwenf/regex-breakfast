@@ -1,11 +1,12 @@
 var regexMatcher = (function(){
 
-    function updateChallenge(id){
-        console.log(id)
-        if ($('aside .highlighted-string').attr('id')){
+    function updateChallenge(id, challenges){
+        // if ($('span.highlighted-string').attr('id')){
 
-        }
-
+        // }
+        var challenge = customFilter(challenges, id);
+        debugger;
+        $('#string-to-match').html('');
     }
 
     function customFilter(object, id){
@@ -21,11 +22,6 @@ var regexMatcher = (function(){
         }
         return null;
     }
-
-    function getChallenges(){
-        return $.getJSON( 'js/challenges.json', function( data ) {});
-    }
-
 
     function init(){
 
